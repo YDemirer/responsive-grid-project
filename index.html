@@ -5,17 +5,174 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Add a link to your custom CSS here -->
+    <link rel="stylesheet" type="text/css" href="../responsive-grid-project/css/main.css">
+    <link rel="stylesheet" type="text/css" href="../responsive-grid-project/css/hamburger.css">
+    <title>Pickles & Co</title>
 
-    <title>Responsive grid project</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
 </head>
 
 <body>
 
     <!-- Add your markup here -->
 
+    <header>
+        
+        <div class="container">
+            
+            <div class="search_bag">
+                    <link href="https://i.ibb.co/kS6vpWq/Screenshot-2021-12-13-at-19-48-18-removebg-preview.png" alt="shopping_bag"/>
+                    <div class="search_bar">
+                      <i class="icon fa fa-search"></i>
+                      <input class="input_text" type="text" name="search" placeholder="Search...">
+                    </div>
+                <div class="shoppingbag">
+                <button type="button" class="shoppingbag_button">
+                    <i class="fa fa-shopping-bag fa-2x"></i>
+                </button>
+                </div>
+            </div>
+            
+            <div class="logo_menu">
+                <div class="logo">
+                    <a href="index.html" class="logo_text">PRICKLES & CO.</a>
+                </div>
 
+                <div class="hamburger">
+                    <nav>
+                        <div class="menuToggle">
+                            <input type="checkbox"/>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <ul class="menu">
+                                <a href="#"><li>Shop</li></a>
+                                <a href="#"><li>About</li></a>
+                                <a href="#"><li>FAQ</li></a>
+                                <a href="#"><li>Contact</li></a>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            
+            <div class="animated_cta">
+                <div class="word w1">We Deliver to Your Doorstep&nbsp;</div>
+                <div class="word w2">Call Us Now!&nbsp;123-456-7890</div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="hero">
+            <img class="hero_img" src="designs/images/697bc8_ee5e15509a8c468f96ec8b15a13e0daf_mv2_d_2000_1809_s_2.webp" alt="hero" style="width:100%"/>
+            <div class="centered_text">
+                <h3 class="estb">estb<img src="designs/images/hero_icon.png"/>2023</h3>
+                <h1 class="title">prickles & co</h1>
+                <h3 class="s_title">bring nature indoors</h3>
+                <a class="shopnow" href="">Shop Now</a>
+            </div>
+        </div>
+
+        <section class="plants_section">
+            <div class="section1">
+                <img src="designs/images/cacti.webp"/>
+                <div class="title_button">
+                    <h2 class="collection_titles">cacti<br><br>-</h2>
+                    <a class="shopcollection" href="">Shop Collection</a>
+                </div>
+            </div>
+
+            <div class="section1">
+                <img src="designs/images/plants.webp"/>
+                <div class="title_button">
+                    <h2 class="collection_titles">plants<br><br>-</h2>
+                    <a class="shopcollection" href="">Shop Collection</a>
+                </div>
+            </div>
+
+            <div class="section1">
+                <img src="designs/images/succulents.webp"/>
+                <div class="title_button">
+                    <h2 class="collection_titles">succulents<br><br>-</h2>
+                    <a class="shopcollection" href="">Shop Collection</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about_us">
+            <h2>About Us<br><br>-</h2>
+            <p>
+                I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.
+            </p>
+            <p>
+                This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide.
+            </p>
+        </section>
+
+        <section class="images">
+            <img src="designs/images/greenhouse.webp" alt="greenhouse"/>
+            <img src="designs/images/leaf.webp" alt="leaf"/>
+            <img src="designs/images/girl.webp" alt="girl"/>
+        </section>
+        
+        <div class="promotion">
+            <h1 class="discount">buy online now & get 10% off !</h1>
+            <a class="shopnow2" href="">Shop Now</a>
+        </div>
+
+            <form>
+                <h2 class="form_title">for special requests & orders<br>-</h2>
+                <label for="f_name">First Name *</label><br>
+                <input type="text" name="firstname" id="fname" required>
+                <br>
+
+                <label for="l_name">Last Name *</label><br>
+                <input type="text" name="lastname" id="lname" required>
+                <br>
+
+                <label for="email">Email *</label><br>
+                <input type="email" name="email" id="email" required>
+                <br>
+
+                <label for="phone">Phone</label><br>
+                <input type="tel" id="phone" name="phone">
+                <br>
+
+                <label for="message">Message</label><br>
+                <textarea name="message" id="message" style="height:120px"></textarea>
+                <br>
+
+                <a class="send" href="">Send</a>
+            </form>
+
+            <section class="store_info">
+                <img src="designs/images/leaves_background.webp" alt="leaves_bg"/>
+
+                <h2 class="info_title">our store</h2>
+
+                <p>Address: 500 Terry Francois Street San Francisco, CA 94158
+                <br>Phone: 123-456-7890
+                <br>Email: info@mysite.com</p>
+                
+                <h2 class="info_title">opening hours</h2>
+                
+                <p>Mon - Fri: 7am - 10pm
+                ​<br>​Saturday: 8am - 10pm
+                ​<br>Sunday: 8am - 11pm</p>
+            
+                <h2 class="info_title">help</h2>
+            
+                <a class="help_links" href="">Shipping & Returns</a><br>
+                <a class="help_links" href="">Privacy Policy</a><br>
+                <a class="help_links" href="">FAQ</a>
+            
+                <h2 class="info_title">subscribe</h2>
+        </section>
+    </main>
+<footer>
     <!-- Please leave this in to credit the creators of this design -->
-    <p>This website design was created by Wix.com, and is used here for strictly educational purposes.</p>
+    <!-- <p>This website design was created by Wix.com, and is used here for strictly educational purposes.</p> -->
+</footer>
 </body>
-
 </html>
